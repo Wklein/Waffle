@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    android:columnCount="2"
+    android:rowCount="2"
+    tools:showIn="@layout/activity_main">
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="imageClick" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="imageClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textColorHighlight="#FFFFFF"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textColorHighlight="#FFFFFF"
+        android:textIsSelectable="true" />
+
+</GridLayout>
